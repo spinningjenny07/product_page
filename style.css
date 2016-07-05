@@ -32,7 +32,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	list-style: disc;
 }
 blockquote, q {
 	quotes: none;
@@ -64,22 +64,36 @@ table {
     padding-bottom: 40px;
 }
 
+.container-fluid {
+	text-align: center;
+}
+
 .navbar {
 	margin-bottom: 0;
 	margin-top: 0;
 }
 
+iframe.abuse-video {
+	margin: 0 auto;
+	height: 415px;
+	width: 560px;
+}
 .message {
 	text-align: center;
 	padding-right: 10px;
 	padding-left: 50px;
-	color: red;
 }
 
-.lvmessage {
-	font-size: 30pt;
+h1.welcome {
+	color: #7B7F11;;
 }
 
-.welcome {
-	color: blue;
+ul {
+	color: black;
+	font-size: 10pt;
+}
+
+p {
+	color: black;
+	font-size: 12pt;
 }
