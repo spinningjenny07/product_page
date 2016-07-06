@@ -32,7 +32,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: disc;
+	list-style: none;
 }
 blockquote, q {
 	quotes: none;
@@ -73,7 +73,7 @@ table {
 	margin-top: 0;
 }
 
-iframe.abuse-video {
+.abuse-video {
 	margin: 0 auto;
 	height: 415px;
 	width: 560px;
@@ -85,15 +85,33 @@ iframe.abuse-video {
 }
 
 h1.welcome {
-	color: #7B7F11;;
+	color: #7B7F11;
+	font-family: 'Pathway Gothic One', sans-serif;
+	/*font-family: 'Fira Sans', sans-serif;*/
 }
 
+.whatthecrap {
+	height: 75px;
+
+}
+
+.p1 {
+	padding-top: 20px;
+}
+
+.p2 {
+	padding-top: 20px;
+}
 ul {
 	color: black;
-	font-size: 10pt;
+	font-size: 14pt;
+	/*font-family: 'Fira Sans', sans-serif;*/
+	font-family: 'Pathway Gothic One', sans-serif;
 }
 
 p {
 	color: black;
-	font-size: 12pt;
+	font-size: 10pt;
+	/*font-family: 'Fira Sans', sans-serif;*/
+	font-family: 'Pathway Gothic One', sans-serif;
 }
